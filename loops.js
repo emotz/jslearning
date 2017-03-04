@@ -1,4 +1,5 @@
 /* jshint -W097 */
+/* jshint esversion: 6 */
 /* globals console */
 'use strict';
 function assert(pred) {console.log(pred ? "Ok" : "Not ok!!!!!");}
