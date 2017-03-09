@@ -17,7 +17,10 @@ function assert(pred) { log(pred ? "Passed." : "Failed"); }
 // sum(2) = sum(2-1) + 2 = sum(1) + 2 = 1 + 2 = 3
 
 // n = 3
-// sum(3) = ...
+// sum(3) = sum(3-1) + 3 = sum(2) + 3 = 3 + 3 = 6
+
+// n = 4 
+// ...
 
 function sum(n) {
     console.log("Entering function sum with arg n = " + n);
@@ -45,5 +48,14 @@ assert(sum(3) === 6);
 // fn(4) = ...
 
 function fn(n) {
-    //WRITE ME
+    if (n === 0) return 10;
+    if (n === 1) return 40;
+    if (n === 2) return 20;
+
+    return fn(n-1) + 10*fn(n-2) + 20*fn(n-3);
 }
+
+assert(fn(3) === 620);
+
+// fn2(n) = -1/6 * fn2(n-1)
+// fn2(0) = -66
