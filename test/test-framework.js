@@ -1,3 +1,5 @@
+'use strict';
+
 var prefix;
 function log(msg) {
   console.log(prefix + msg);

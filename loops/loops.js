@@ -1,10 +1,8 @@
-/* jshint -W097 */
-/* jshint esversion: 6 */
-/* globals console */
 'use strict';
-function assert(pred) {console.log(pred ? "Ok" : "Not ok!!!!!");}
-
+function log(msg) { console.log(msg); }
+function assert(pred) { log(pred ? "Passed." : "Failed."); }
 //////////////////////////////////////////////////
+
 // реверс строки
 var input = "hello world";
 var res;
