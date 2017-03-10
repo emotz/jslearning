@@ -11,4 +11,6 @@ let server = http.createServer(function(request, response) {
     log("Received a request for url \"" + request.url + "\"");
     response.write("<html><body>Hello world</body></html>");
     response.end();
-}).listen(8080);
+});
+
+server.listen(8080);
