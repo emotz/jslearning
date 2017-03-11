@@ -1,0 +1,14 @@
+{
+  "name": "siteexpress_helloworld",
+  "version": "1.0.0",
+  "description": "First app to use Express",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Mazurok",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
