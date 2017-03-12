@@ -9,7 +9,8 @@ let http = require('http');
 
 let server = http.createServer(function(request, response) {
     log("Received a request for url \"" + request.url + "\"");
-    response.write("<html><body>Hello world</body></html>");
+    //response.write("<html><body>Hello world</body></html>");
+    response.write("hello world");
     response.end();
 });
 
