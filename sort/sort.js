@@ -18,7 +18,9 @@ function compare(first, second) {
 let a = 10;
 let b = "asdf";
 
-// WRITE ME
+let temp = a;
+a = b;
+b = temp;
 
 assert(a === "asdf");
 assert(b === 10);
@@ -27,8 +29,19 @@ assert(b === 10);
 
 // сортировка массива "пузырьком"
 function sort_bubble(arr) {
-    // WRITE ME
-    return [];
+  while (true) {
+    let temp = undefined;
+    for (let i = 0; i < arr.length-1; i++) {
+      if (arr[i] > arr[i+1]) {
+        temp = arr[i];
+        arr[i] = arr[i+1];
+        arr[i+1] = temp;
+      }
+    }
+    if (temp === undefined) {
+      return arr;
+    }
+  }
 }
 
 assert(compare(sort_bubble([1, 2, 3]), [1, 2, 3]));
@@ -46,3 +59,4 @@ function sort_quick(arr) {
 assert(compare(sort_quick([1, 2, 3]), [1, 2, 3]));
 assert(compare(sort_quick([3, 2, 1]), [1, 2, 3]));
 assert(compare(sort_quick([10, 0, 15, 6, 8]), [0, 6, 8, 10, 15]));
+
