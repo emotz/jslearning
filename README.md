@@ -10,9 +10,11 @@ Install "Code Runner" extension
 
 Install "jshint" extension
 
-Copy .vscode/launch.json into new folder
+Copy .jshintrc into root folder
 
-In visual studio code, press ctrl-shift-p and type "preferences", then open settings file
+Create directory .vscode and copy launch.json file into it
+
+In visual studio code, press ctrl-shift-p and type "preferences", then `Preferences: Open User Settings`
 
 Insert there
 
