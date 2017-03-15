@@ -95,6 +95,7 @@ function is_simple(num) {
     }
     return true;
 }
+assert(is_simple(1) === true);
 assert(is_simple(7) === true);
 assert(is_simple(6) === false);
 assert(is_simple(13) === true);

@@ -3,8 +3,8 @@ function log(msg) { console.log(msg); }
 function assert(pred) { log(pred ? "Passed." : "Failed."); }
 //////////////////////////////////////////////////
 
-var express = require('express');
-var app = express();
+let express = require('express');
+let app = express();
 
 app.get('/', function (req, res) {
     log("Got request!");
