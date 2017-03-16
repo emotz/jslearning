@@ -1,0 +1,64 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1112" measuredH="1980" mockupW="712" mockupH="1944">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="400" y="36" w="712" h="571" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="769" y="195" w="-1" h="-1" measuredW="45" measuredH="27" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>Add</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="478" y="337" w="-1" h="-1" measuredW="70" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>Remove</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="600" y="195" w="139" h="-1" measuredW="79" measuredH="26" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::CheckBoxGroup" x="478" y="195" w="-1" h="-1" measuredW="99" measuredH="127" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%5B%20%5D%20some%20item%0A%5B%20%5D%20another%20item%0A%5B%20%5D%20huy%0A%5B%20%5D%20pizda%0A%5B%20%5D%20jopa%0A%5B%20%5D%20lalala</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::TabBar" x="444" y="137" w="602" h="390" measuredW="193" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>0</selectedIndex>
+        <tabVPosition>top</tabVPosition>
+        <text>Tasks%2C%20About%2C%20Jopa</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="400" y="712" w="712" h="571" measuredW="450" measuredH="400" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TabBar" x="444" y="813" w="602" h="390" measuredW="193" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>1</selectedIndex>
+        <tabVPosition>top</tabVPosition>
+        <text>Tasks%2C%20About%2C%20Jopa</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="459" y="864" w="200" h="307" measuredW="200" measuredH="80" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21%0A%u041C%u044B%20%u043F%u0438%u0437%u0434%u0430%u0442%u044B%21%21%21</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="400" y="1409" w="712" h="571" measuredW="450" measuredH="400" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::TabBar" x="444" y="1510" w="602" h="390" measuredW="193" measuredH="100" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <selectedIndex>2</selectedIndex>
+        <tabVPosition>top</tabVPosition>
+        <text>Tasks%2C%20About%2C%20Jopa</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Image" x="478" y="1565" w="342" h="302" measuredW="77" measuredH="79" zOrder="11" locked="false" isInGroup="-1"/>
+  </controls>
+</mockup>
