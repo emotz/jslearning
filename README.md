@@ -10,6 +10,10 @@ Install "Code Runner" extension
 
 Install "jshint" extension
 
+Install "vetur" extension
+
+Install ["npm"](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+
 Copy .jshintrc into root folder
 
 Create directory .vscode and copy launch.json file into it
