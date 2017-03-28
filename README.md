@@ -12,7 +12,7 @@ Install "jshint" extension
 
 Install "vetur" extension
 
-Install ["npm"](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)
+Install ["npm"](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script) extension
 
 Copy .jshintrc into root folder
 
